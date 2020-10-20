@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.btn {
+  display: block;
+
+  padding: 10px;
+  min-width: 100px;
+
+  font-family: 'Architects Daughter', cursive;
+
+  background-color: darkblue;
+  color: white;
+  border: 1px solid transparent;
+  /* border-radius: 25px; */
+}
+
+.btn:first-child {
+  margin-right: 15px;
+}
+
+.btn:disabled {
+  background-color: teal;
+}
